@@ -1,16 +1,16 @@
 body{
 	margin: 0;
-	background-image: linear-gradient(to left, #000000, #0f0b0d, #171317, #1d1a20, #21212a, #242833, #252f3c, #263744, #26404c, #274a53, #2b5457, #325d5a);
+	/* background-image: linear-gradient(to left, #000000, #0f0b0d, #171317, #1d1a20, #21212a, #242833, #252f3c, #263744, #26404c, #274a53, #2b5457, #325d5a); */
+	background-image: linear-gradient(to left, #000000, #2c0b1c, #4d0539, #6a0061, #7c0794, #7c0794, #7c0794, #7c0794, #6a0061, #4d0539, #2c0b1c, #000000);
   }
   .navbar {
 	  display: flex;
-	  grid-column: ;
 	  justify-content: space-between;
+	  align-items: center;
 	  align-items: center;
 	  padding: 10px 40px;
 	  color: white;
 	  height: 7vh;
-	  /* background-image: linear-gradient(to left, #000000, #0f0b0d, #171317, #1d1a20, #21212a, #242833, #252f3c, #263744, #26404c, #274a53, #2b5457, #325d5a); */
 	background-color: transparent;
 	}
 	.navbar .logo {
@@ -30,10 +30,8 @@ body{
 	  width: 100%;
 	}
 	.navbar a {
-	  color: white;
+	  color: #7533E6;
 	  text-decoration: none;
-	  border: 1px solid white;
-	  border-radius: 5px;
 
 	  padding: 1px 10px;
 	}
@@ -47,6 +45,7 @@ body{
 	  display: flex;
 	  align-items: center;
 	  justify-content: center;
+	  margin-top: 10px;
 	  /* background-image: linear-gradient(to left, #000000, #0f0b0d, #171317, #1d1a20, #21212a, #242833, #252f3c, #263744, #26404c, #274a53, #2b5457, #325d5a); */
 	}
 	.grid1{
@@ -59,16 +58,13 @@ body{
 	  position: relative;
 	  background: url(/assets/imgs/stadium_background.webp) no-repeat;
 	  background-size: cover;
-	  /* box-shadow: #ffb700; */
 	  box-shadow: rgba(255, 183, 0, 1) 0px 0px 8px 0px;
-	  /* border: 1px red solid; */
 	  margin-left: 10px;
 	  margin-bottom: 10px;
 	}
 	.player-card {
 	  text-align: center;
 	  border-radius: 5px;
-	  /* border: solid 1px yellow; */
 	}
 	.player-card .img-holder{
 	  width: 100%;
@@ -89,7 +85,6 @@ body{
 	.sidebar {
 	  flex: 1;
 	  padding: 20px;
-	  /* background-color: #000; */
 	  display: flex;
 	  flex-direction: column;
 	  gap: 15px;
@@ -138,7 +133,7 @@ body{
 	  background-size: 100% 100%;
 	  background-repeat: no-repeat;
 	  padding: 3.8rem 0;
-	  filter: drop-shadow(0px 0px 15px rgba(117, 51, 230, 1.5));
+	  filter: drop-shadow(0px 0px 10px rgba(117, 51, 230, 1.5));
 	}
 	.fut-player-card .player-card-top {
 	  position: relative;
