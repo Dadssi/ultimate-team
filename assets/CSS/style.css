@@ -1,27 +1,41 @@
 body{
 	margin: 0;
+	background-image: linear-gradient(to left, #000000, #0f0b0d, #171317, #1d1a20, #21212a, #242833, #252f3c, #263744, #26404c, #274a53, #2b5457, #325d5a);
   }
   .navbar {
 	  display: flex;
+	  grid-column: ;
 	  justify-content: space-between;
 	  align-items: center;
-	  padding: 10px 20px;
+	  padding: 10px 40px;
 	  color: white;
 	  height: 7vh;
-	  background-image: linear-gradient(to left, #000000, #0f0b0d, #171317, #1d1a20, #21212a, #242833, #252f3c, #263744, #26404c, #274a53, #2b5457, #325d5a);
+	  /* background-image: linear-gradient(to left, #000000, #0f0b0d, #171317, #1d1a20, #21212a, #242833, #252f3c, #263744, #26404c, #274a53, #2b5457, #325d5a); */
+	background-color: transparent;
 	}
 	.navbar .logo {
 	  font-size: 20px;
 	  font-weight: bold;
+	  text-shadow: 0px 0px 15px;
+	  letter-spacing: 1px;
+	}
+	.navbar nav{
+		width: 25%;
 	}
 	.navbar ul {
 	  list-style: none;
 	  display: flex;
-	  gap: 15px;
+	  justify-content: space-around;
+	  gap: 20px;
+	  width: 100%;
 	}
 	.navbar a {
 	  color: white;
 	  text-decoration: none;
+	  border: 1px solid white;
+	  border-radius: 5px;
+
+	  padding: 1px 10px;
 	}
 	.container {
 	  display: flex;
@@ -33,24 +47,28 @@ body{
 	  display: flex;
 	  align-items: center;
 	  justify-content: center;
-	  background-image: linear-gradient(to left, #000000, #0f0b0d, #171317, #1d1a20, #21212a, #242833, #252f3c, #263744, #26404c, #274a53, #2b5457, #325d5a);
+	  /* background-image: linear-gradient(to left, #000000, #0f0b0d, #171317, #1d1a20, #21212a, #242833, #252f3c, #263744, #26404c, #274a53, #2b5457, #325d5a); */
 	}
 	.grid1{
 	  display: grid;
 	  grid-template-columns: repeat(7, 1fr);
 	  grid-template-rows: repeat(8, 1fr);
 	  gap: 5px;
-	  width: 90%;
-	  height: 90%;
+	  width: 100%;
+	  height: 100%;
 	  position: relative;
 	  background: url(/assets/imgs/stadium_background.webp) no-repeat;
 	  background-size: cover;
+	  /* box-shadow: #ffb700; */
+	  box-shadow: rgba(255, 183, 0, 1) 0px 0px 8px 0px;
+	  /* border: 1px red solid; */
+	  margin-left: 10px;
+	  margin-bottom: 10px;
 	}
 	.player-card {
 	  text-align: center;
-	  line-height: 30px;
-	  font-weight: bold;
 	  border-radius: 5px;
+	  /* border: solid 1px yellow; */
 	}
 	.player-card .img-holder{
 	  width: 100%;
@@ -65,16 +83,17 @@ body{
 	  height: 230%;
 	  position: absolute;
 	  bottom: 0px;
-	  right: 0px;
+	  right: 5px;
+	  filter: drop-shadow(0px 0px 15px rgba(117, 51, 230, 1.5));
 	}
 	.sidebar {
 	  flex: 1;
 	  padding: 20px;
-	  background-color: #000;
+	  /* background-color: #000; */
 	  display: flex;
 	  flex-direction: column;
 	  gap: 15px;
-	  height: 93vh;
+	  height: 100%;
 	}
 	button, select {
 	  width: 100%;
@@ -91,7 +110,7 @@ body{
 	  overflow-y: scroll;
 	}
 	/* ---------------------------------------------- */
-	#addPlayerBtn{
+	/* #addPlayerBtn{
 	  background-color: aqua;
 	  font-weight: 600;
 	  transition: ease .3s ;
@@ -104,7 +123,7 @@ body{
 	  color: #000;
 	  font-weight: 600;
 	  scale: 1.05;
-	}
+	} */
 	#formationSelect{
 	  background-color: #ffb700;
 	  border: none;
@@ -119,6 +138,7 @@ body{
 	  background-size: 100% 100%;
 	  background-repeat: no-repeat;
 	  padding: 3.8rem 0;
+	  filter: drop-shadow(0px 0px 15px rgba(117, 51, 230, 1.5));
 	}
 	.fut-player-card .player-card-top {
 	  position: relative;
