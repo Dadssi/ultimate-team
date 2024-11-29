@@ -212,9 +212,9 @@ function updateGridFormation(formation) {
         <div class="player-card "></div>
         <div class="player-card CB"></div>
         <div class="player-card ST"></div>
-        <div class="player-card "><div class="img-holder"><img src="images/empty-card.png" alt=""></div></div>
+        <div class="player-card "><div class="img-holder"><img src="/assets/imgs/empty-card.png" alt=""></div></div>
         <div class="player-card CB"></div>
-        <div class="player-card ST"><div class="img-holder"><img src="images/empty-card.png" alt=""></div></div>
+        <div class="player-card ST"><div class="img-holder"><img src="/assets/imgs/empty-card.png" alt=""></div></div>
         <div class="player-card "></div>
         <div class="player-card CB"></div>
         <div class="player-card ST"></div>
@@ -225,37 +225,37 @@ function updateGridFormation(formation) {
         <div class="player-card CB"></div>
         <div class="player-card ST"></div>
         <div class="player-card ST"></div>
-        <div class="player-card ST"><div class="img-holder"><img src="images/empty-card.png" alt=""></div></div>
+        <div class="player-card ST"><div class="img-holder"><img src="/assets/imgs/empty-card.png" alt=""></div></div>
         <div class="player-card ST"></div>
         <div class="player-card ST"></div>
         <div class="player-card ST"></div>
-        <div class="player-card ST"><div class="img-holder"><img src="images/empty-card.png" alt=""></div></div>
+        <div class="player-card ST"><div class="img-holder"><img src="/assets/imgs/empty-card.png" alt=""></div></div>
         <div class="player-card ST"></div>
         <div class="player-card "></div>
         <div class="player-card CB"></div>
-        <div class="player-card ST"><div class="img-holder"><img src="images/empty-card.png" alt=""></div></div>
+        <div class="player-card ST"><div class="img-holder"><img src="/assets/imgs/empty-card.png" alt=""></div></div>
         <div class="player-card "></div>
-        <div class="player-card CB"><div class="img-holder"><img src="images/empty-card.png" alt=""></div></div>
+        <div class="player-card CB"><div class="img-holder"><img src="/assets/imgs/empty-card.png" alt=""></div></div>
         <div class="player-card ST"></div>
         <div class="player-card GK"></div>
-        <div class="player-card CB"><div class="img-holder"><img src="images/empty-card.png" alt=""></div></div>
+        <div class="player-card CB"><div class="img-holder"><img src="/assets/imgs/empty-card.png" alt=""></div></div>
         <div class="player-card ST"></div>
         <div class="player-card ST"></div>
         <div class="player-card "></div>
         <div class="player-card CB"></div>
         <div class="player-card ST"></div>
-        <div class="player-card "><div class="img-holder"><img src="images/empty-card.png" alt=""></div></div>
+        <div class="player-card "><div class="img-holder"><img src="/assets/imgs/empty-card.png" alt=""></div></div>
         <div class="player-card CB"></div>
-        <div class="player-card ST"><div class="img-holder"><img src="images/empty-card.png" alt=""></div></div>
+        <div class="player-card ST"><div class="img-holder"><img src="/assets/imgs/empty-card.png" alt=""></div></div>
         <div class="player-card "></div>
         <div class="player-card CB"></div>
         <div class="player-card ST"></div>
-        <div class="player-card "><div class="img-holder"><img src="images/empty-card.png" alt=""></div></div>
+        <div class="player-card "><div class="img-holder"><img src="/assets/imgs/empty-card.png" alt=""></div></div>
         <div class="player-card CB"></div>
         <div class="player-card ST"></div>
         <div class="player-card "></div>
         <div class="player-card CB"></div>
-        <div class="player-card ST"><div class="img-holder"><img src="images/empty-card.png" alt=""></div></div>
+        <div class="player-card ST"><div class="img-holder"><img src="/assets/imgs/empty-card.png" alt=""></div></div>
         <div class="player-card GK"></div>
         <div class="player-card CB"></div>
         <div class="player-card ST"></div>
@@ -266,46 +266,43 @@ function updateGridFormation(formation) {
     <div class="player-card "><div>1</div></div>
         <div class="player-card CB"></div>
         <div class="player-card ST"></div>
-        <div class="player-card "><div class="img-holder"><img src="images/empty-card.png" alt=""></div></div>
+        <div class="player-card "><div class="img-holder"><img src="/assets/imgs/empty-card.png" alt=""></div></div>
         <div class="player-card CB"></div>
         <div class="player-card ST"></div>
         <div class="player-card "></div>
         <div class="player-card CB"></div>
-        <div class="player-card ST"><div class="img-holder"><img src="images/empty-card.png" alt=""></div></div>
+        <div class="player-card ST"><div class="img-holder"><img src="/assets/imgs/empty-card.png" alt=""></div></div>
         <div class="player-card "></div>
         <div class="player-card CB"></div>
         <div class="player-card ST"></div>
-        <div class="player-card "><div class="img-holder"><img src="images/empty-card.png" alt=""></div></div>
-        <div class="player-card CB"></div>
-        <div class="player-card ST"></div>
-        <div class="player-card "></div>
+        <div class="player-card "><div class="img-holder"><img src="/assets/imgs/empty-card.png" alt=""></div></div>
         <div class="player-card CB"></div>
         <div class="player-card ST"></div>
         <div class="player-card "></div>
         <div class="player-card CB"></div>
         <div class="player-card ST"></div>
+        <div class="player-card "></div>
+        <div class="player-card CB"></div>
         <div class="player-card ST"></div>
-        <div class="player-card ST"><div class="img-holder"><img src="images/empty-card.png" alt=""></div></div>
         <div class="player-card ST"></div>
-        <div class="player-card ST"><div class="img-holder"><img src="images/empty-card.png" alt=""></div></div>
+        <div class="player-card ST"><div class="img-holder"><img src="/assets/imgs/empty-card.png" alt=""></div></div>
         <div class="player-card ST"></div>
-        <div class="player-card ST"><div class="img-holder"><img src="images/empty-card.png" alt=""></div></div>
+        <div class="player-card ST"><div class="img-holder"><img src="/assets/imgs/empty-card.png" alt=""></div></div>
         <div class="player-card ST"></div>
-        <div class="player-card "><div class="img-holder"><img src="images/empty-card.png" alt=""></div></div>
+        <div class="player-card ST"><div class="img-holder"><img src="/assets/imgs/empty-card.png" alt=""></div></div>
+        <div class="player-card ST"></div>
+        <div class="player-card "><div class="img-holder"><img src="/assets/imgs/empty-card.png" alt=""></div></div>
         <div class="player-card CB"></div>
         <div class="player-card ST"></div>
         <div class="player-card "></div>
         <div class="player-card CB"></div>
         <div class="player-card ST"></div>
-        <div class="player-card GK"><div class="img-holder"><img src="images/empty-card.png" alt=""></div></div>
+        <div class="player-card GK"><div class="img-holder"><img src="/assets/imgs/empty-card.png" alt=""></div></div>
         <div class="player-card CB"></div>
         <div class="player-card ST"></div>
-        <div class="player-card ST"><div class="img-holder"><img src="images/empty-card.png" alt=""></div></div>
+        <div class="player-card ST"><div class="img-holder"><img src="/assets/imgs/empty-card.png" alt=""></div></div>
         <div class="player-card "></div>
-        <div class="player-card CB"><div class="img-holder"><img src="images/empty-card.png" alt=""></div></div>
-        <div class="player-card ST"></div>
-        <div class="player-card "></div>
-        <div class="player-card CB"></div>
+        <div class="player-card CB"><div class="img-holder"><img src="/assets/imgs/empty-card.png" alt=""></div></div>
         <div class="player-card ST"></div>
         <div class="player-card "></div>
         <div class="player-card CB"></div>
@@ -315,7 +312,10 @@ function updateGridFormation(formation) {
         <div class="player-card ST"></div>
         <div class="player-card "></div>
         <div class="player-card CB"></div>
-        <div class="player-card ST"><div class="img-holder"><img src="images/empty-card.png" alt=""></div></div>
+        <div class="player-card ST"></div>
+        <div class="player-card "></div>
+        <div class="player-card CB"></div>
+        <div class="player-card ST"><div class="img-holder"><img src="/assets/imgs/empty-card.png" alt=""></div></div>
         <div class="player-card GK"></div>
         <div class="player-card CB"></div>
         <div class="player-card ST"></div>

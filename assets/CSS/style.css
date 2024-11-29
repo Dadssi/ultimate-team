@@ -43,7 +43,7 @@ body{
 	  width: 90%;
 	  height: 90%;
 	  position: relative;
-	  background: url(images/stadium_background.webp) no-repeat;
+	  background: url(/assets/imgs/stadium_background.webp) no-repeat;
 	  background-size: cover;
 	}
 	.player-card {
