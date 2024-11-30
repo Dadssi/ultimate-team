@@ -56,7 +56,7 @@ body{
 	  width: 100%;
 	  height: 100%;
 	  position: relative;
-	  background: url(/assets/imgs/stadium_background.webp) no-repeat;
+	  background: url(../imgs/field.png) no-repeat;
 	  background-size: cover;
 	  box-shadow: rgba(255, 183, 0, 1) 0px 0px 8px 0px;
 	  margin-left: 10px;
