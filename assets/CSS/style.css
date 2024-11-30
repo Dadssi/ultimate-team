@@ -60,6 +60,9 @@ body{
 	  height: 93vh;
 	  width: 100%;
 	}
+	.sub-container{
+		flex: 3;
+	}
 	.field {
 	  flex: 3;
 	  display: flex;
