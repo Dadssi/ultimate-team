@@ -458,38 +458,38 @@ function updateGridFormation(formation) {
 // -----------------------------------------------------------------------
 // l'utilisation de la librairie Select2 pour Ajouter les drapeaux avec les noms des pays dans select option 
 // -----------------------------------------------------------------------
-const API_URL = "https://cdn.simplelocalize.io/public/v1/countries";
+// const API_URL = "https://cdn.simplelocalize.io/public/v1/countries";
 
-fetch(API_URL)
-  .then(response => response.json())
-  .then(data => {
-      const options = data.map(country => {
-          const flagUrl = `https://flagcdn.com/w40/${country.code.toLowerCase()}.png`;
-          return {
-              id: country.code, // Code ISO pour la valeur
-              text: country.name, // Nom du pays
-              flag: flagUrl // URL du drapeau
-          };
-      });
-      $("#nationality").select2({
-          data: options,
-          templateResult: formatOption, // Format des options dans la liste
-          templateSelection: formatSelection // Format de l'option selectionnee
-      });
-      // Fonction pour formater les options dans la liste
-      function formatOption(country) {
-          if (!country.id) return country.text; // Option par défaut
-          const flag = `<img src="${country.flag}" class="flag-icon" alt="${country.text}" />`;
-          return $(`<span>${flag} ${country.text}</span>`);
-      }
-      // Fonction pour formater l'option sélectionnée
-      function formatSelection(country) {
-          if (!country.id) return country.text; // Option par défaut
-          const flag = `<img src="${country.flag}" class="flag-icon" alt="${country.text}" />`;
-          return $(`<span>${flag} ${country.text}</span>`);
-      }
-  })
-  .catch(error => console.error("Erreur lors du chargement des données :", error));
+// fetch(API_URL)
+//   .then(response => response.json())
+//   .then(data => {
+//       const options = data.map(country => {
+//           const flagUrl = `https://flagcdn.com/w40/${country.code.toLowerCase()}.png`;
+//           return {
+//               id: country.code, // Code ISO pour la valeur
+//               text: country.name, // Nom du pays
+//               flag: flagUrl // URL du drapeau
+//           };
+//       });
+//       $("#nationality").select2({
+//           data: options,
+//           templateResult: formatOption, // Format des options dans la liste
+//           templateSelection: formatSelection // Format de l'option selectionnee
+//       });
+//       // Fonction pour formater les options dans la liste
+//       function formatOption(country) {
+//           if (!country.id) return country.text; // Option par défaut
+//           const flag = `<img src="${country.flag}" class="flag-icon" alt="${country.text}" />`;
+//           return $(`<span>${flag} ${country.text}</span>`);
+//       }
+//       // Fonction pour formater l'option sélectionnée
+//       function formatSelection(country) {
+//           if (!country.id) return country.text; // Option par défaut
+//           const flag = `<img src="${country.flag}" class="flag-icon" alt="${country.text}" />`;
+//           return $(`<span>${flag} ${country.text}</span>`);
+//       }
+//   })
+//   .catch(error => console.error("Erreur lors du chargement des données :", error));
   //------------------------------------------------------------------------------------------------
   
   const position = document.getElementById("position");
@@ -510,4 +510,3 @@ fetch(API_URL)
   });
   //----------------------------------------------------------------
 
-  
