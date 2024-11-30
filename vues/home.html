@@ -8,6 +8,9 @@
     content="Créez votre équipe FUT idéale grâce à une interface interactive et intuitive. Ajoutez, positionnez 
     et modifiez vos joueurs en respectant des formations tactiques populaires . Profitez d'une expérience utilisateur fluide." />
   <meta name="keywords" content="Ultimate Team, Formation tactique, Équipe de football, Création d'équipe, Football virtuel, Gestion d'équipe" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sixtyfour+Convergence&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/8dd174d5fa.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="../assets/CSS/style.css" />
   <script src="https://cdn.tailwindcss.com"></script>
@@ -22,7 +25,7 @@
     <div class="logo text-purple-600">ULTIMATE TEAM</div>
     <nav>
       <ul>
-        <li><a href="../vues/home.html">Home</a></li>
+        <li><a href="../vues/home.html" class="active">Home</a></li>
         <li><a href="../vues/About.html">About Us</a></li>
       </ul>
     </nav>
@@ -34,8 +37,8 @@
     </div>
     <!-- Section Barre latérale -->
     <div class="sidebar">
-      <button type="button" class="text-white bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800 shadow-lg shadow-purple-500/50 dark:shadow-lg dark:shadow-purple-800/80 font-medium rounded-lg text-md px-5 py-2.5 text-center me-2 mb-2" id="addPlayerBtn" data-modal-target="crud-modal" data-modal-toggle="crud-modal">Add Player</button>
-      <select id="formationSelect">
+      <button type="button" class="text-white bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800 shadow-lg shadow-purple-500/50 dark:shadow-lg dark:shadow-purple-800/80 font-medium rounded-lg text-md px-5 py-2.5 text-center me-2" id="addPlayerBtn" data-modal-target="crud-modal" data-modal-toggle="crud-modal">Add Player</button>
+      <select id="formationSelect" class="text-purple-600 bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 focus:ring-4 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800 shadow-lg shadow-purple-500/50 dark:shadow-lg dark:shadow-purple-800/80 font-medium rounded-lg text-md px-5 py-2.5 text-center me-2">
         <option value="4-4-2">4-4-2</option>
         <option value="4-3-3">4-3-3</option>
       </select>
