@@ -510,3 +510,23 @@ function updateGridFormation(formation) {
   });
   //----------------------------------------------------------------
 
+  const benchBtn = document.getElementById("bench-btn");
+  const fieldBtn = document.getElementById("field-btn");
+  benchBtn.addEventListener("click", function(){
+    const field = document.getElementById("field");
+    const bench = document.getElementById("bench");
+
+    field.classList.add("hidden");
+    bench.classList.remove("hidden");
+  });
+
+  fieldBtn.addEventListener("click", function(){
+    const field = document.getElementById("field");
+    const bench = document.getElementById("bench");
+
+    field.classList.remove("hidden");
+    bench.classList.add("hidden");
+  });
+   //----------------------------------------------------------------
+
+   

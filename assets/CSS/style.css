@@ -103,9 +103,77 @@ body{
 	  height: 230%;
 	  position: absolute;
 	  bottom: 0px;
-	  right: 15px;
+	  right: 0px;
 	  filter: drop-shadow(0px 0px 15px rgba(117, 51, 230, 1.5));
 	}
+	/* ----------------------------------------------------------------------- */
+	.bench {
+		flex: 3;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin-top: 10px;
+	  }
+	  #subtitute-container{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		gap: 15px;
+		padding: 10px;
+		width: 100%;
+		height: 100%;
+		box-shadow: rgba(255, 183, 0, 1) 0px 0px 8px 0px;
+		border-radius: 5px;
+		margin-left: 10px;
+		margin-bottom: 10px;
+		/* background-color: #333; */
+		overflow-y: scroll;
+	  }
+	  #subtitute-container::-webkit-scrollbar {
+		width: 18px; /* Largeur de la barre */
+	  }
+	  
+	  /* Couleur et style du "track" (fond) */
+	  #subtitute-container::-webkit-scrollbar-track {
+		/* background: #f1f1f1; */
+		background: rgb(72, 4, 72);
+		border-radius: 10px;
+	  }
+	  
+	  /* Couleur et style de la "thumb" (manette de défilement) */
+	  #subtitute-container::-webkit-scrollbar-thumb {
+		background: #9f0ade;
+		border-radius: 10px;
+	  }
+	  
+	  /* Style de la manette au survol */
+	  #subtitute-container::-webkit-scrollbar-thumb:hover {
+		background: #6a0894;
+	  }
+	  .subtitude-card {
+		width: 32%;
+		height: 60%;
+		text-align: center;
+		border-radius: 5px;
+		border: 1px solid red;
+	  }
+	  .player-card .img-holder{
+		width: 100%;
+		height: 100%;
+		position: relative;
+	  }
+	  .player-card .img-holder .carte{
+		height: 100%;
+		width: 100%;
+	  }
+	  .player-card img {
+		height: 230%;
+		position: absolute;
+		bottom: 0px;
+		right: 15px;
+		filter: drop-shadow(0px 0px 15px rgba(117, 51, 230, 1.5));
+	  }
+	/* ----------------------------------------------------------------------- */
 	.sidebar {
 	  flex: 1;
 	  padding: 20px;
@@ -128,6 +196,29 @@ body{
 	  height: 100vh;
 	  overflow-y: scroll;
 	}
+	 /* Personnalisation de la barre de défilement */
+	 #playerList::-webkit-scrollbar {
+		width: 18px; /* Largeur de la barre */
+	  }
+	  
+	  /* Couleur et style du "track" (fond) */
+	  #playerList::-webkit-scrollbar-track {
+		/* background: #f1f1f1; */
+		background: rgb(67, 6, 67);
+		border-radius: 10px;
+	  }
+	  
+	  /* Couleur et style de la "thumb" (manette de défilement) */
+	  #playerList::-webkit-scrollbar-thumb {
+		background: #888;
+		border-radius: 10px;
+	  }
+	  
+	  /* Style de la manette au survol */
+	  #playerList::-webkit-scrollbar-thumb:hover {
+		background: #555;
+	  }
+	  
 	/* ----------------------------------------------- */
 	.fut-player-card {
 	  display: flex;
@@ -276,32 +367,9 @@ body{
 	  border: 0;
 	}
 	/* -------------------------------------------------------------- */
-	#country-select option {
-	  padding: 5px 10px;
-	  font-size: 16px;
-  }
-  .flag-option {
-	  display: flex;
-	  align-items: center;
-  }
-  .flag-option img {
-	  width: 20px;
-	  height: auto;
-	  margin-right: 8px;
-  }
-  .flag-icon {
-	width: 20px;
-	height: auto;
-	margin-right: 8px;
-  }
-  .select2-container--default .select2-selection--single {
-	height: 60px;
-	display: flex;
-	align-items: center;
-  }
-  .select2-selection__rendered img {
-	margin-right: 10px;
-  }
+
+  
+ 
   
   
   
