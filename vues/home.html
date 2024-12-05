@@ -56,28 +56,23 @@
           </a>
         </li>
       </ul>
-      <!-- <div class="p-6 bg-gray-50 text-medium text-gray-500 dark:text-gray-400 dark:bg-gray-800 rounded-lg w-full">
-      <h3 class="text-lg font-bold text-gray-900 dark:text-white mb-2">Profile Tab</h3>
-      <p class="mb-2">This is some placeholder content the Profile tab's associated content, clicking another tab will toggle the visibility of this one for the next.</p>
-      <p>The tab JavaScript swaps classes to control the content visibility and styling.</p> 
-  </div> -->
       <div id="field" class="field">
         <div class="grid1"></div>
       </div>
       <!-- --------------------------------------------- -->
        <div id="bench" class="bench w-full hidden">
         <div id="subtitute-container">
-          <div class="subtitude-card"><h1 class="text-6xl text-white">1</h1></div>
-          <div class="subtitude-card"><h1 class="text-6xl text-white">2</h1></div>
-          <div class="subtitude-card"><h1 class="text-6xl text-white">3</h1></div>
-          <div class="subtitude-card"><h1 class="text-6xl text-white">4</h1></div>
-          <div class="subtitude-card"><h1 class="text-6xl text-white">5</h1></div>
-          <div class="subtitude-card"><h1 class="text-6xl text-white">6</h1></div>
-          <div class="subtitude-card"><h1 class="text-6xl text-white">7</h1></div>
-          <div class="subtitude-card"><h1 class="text-6xl text-white">8</h1></div>
-          <div class="subtitude-card"><h1 class="text-6xl text-white">9</h1></div>
-          <div class="subtitude-card"><h1 class="text-6xl text-white">10</h1></div>
-          <div class="subtitude-card"><h1 class="text-6xl text-white">11</h1></div>
+          <div class="subtitude-card"><h1 class="text-6xl text-purple-400">1</h1></div>
+          <div class="subtitude-card"><h1 class="text-6xl text-purple-400">2</h1></div>
+          <div class="subtitude-card"><h1 class="text-6xl text-purple-400">3</h1></div>
+          <div class="subtitude-card"><h1 class="text-6xl text-purple-400">4</h1></div>
+          <div class="subtitude-card"><h1 class="text-6xl text-purple-400">5</h1></div>
+          <div class="subtitude-card"><h1 class="text-6xl text-purple-400">6</h1></div>
+          <div class="subtitude-card"><h1 class="text-6xl text-purple-400">7</h1></div>
+          <div class="subtitude-card"><h1 class="text-6xl text-purple-400">8</h1></div>
+          <div class="subtitude-card"><h1 class="text-6xl text-purple-400">9</h1></div>
+          <div class="subtitude-card"><h1 class="text-6xl text-purple-400">10</h1></div>
+          <div class="subtitude-card"><h1 class="text-6xl text-purple-400">11</h1></div>
         </div>
        </div>
     </div>
@@ -117,7 +112,7 @@
           </button>
         </div>
         <!-- Modal body -->
-        <form class="p-4 md:p-5">
+        <form class="p-4 md:p-5" id="add-player-form">
           <!-- ------------------------------------------------ -->
           <div class="grid gap-4 mb-4 grid-cols-6">
             <div class="col-span-4">
@@ -128,13 +123,13 @@
             </div>
             <div class="col-span-2">
               <label for="photo" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Photo</label>
-              <input type="file" name="photo" id="photo"
-                class="border border-gray-300 text-sm rounded-lg block w-full p-0.5 bg-white" required="" />
+              <input type="text" name="photo" id="photo"
+                class="bg-white border border-purple-900 text-purple-900 placeholder-purple-900 text-md rounded-lg focus:ring-primary-600 focus:border-purple-700 block w-full p-2.5"  />
             </div>
             <div class="col-span-2 sm:col-span-2">
               <label for="position"
                 class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Position</label>
-              <select id="position"
+              <select id="position" name="position"
                 class="bg-white border border-purple-900 text-purple-900 placeholder-purple-900 text-md rounded-lg focus:ring-primary-600 focus:border-purple-700 block w-full p-2.5">
                 <option selected="">Select a Position</option>
                 <option value="GK">GK- GOAL KEEPER</option>
@@ -151,7 +146,7 @@
             <div class="col-span-2 sm:col-span-2">
               <label for="nationality"
                 class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Nationality</label>
-              <select id="nationality"
+              <select id="nationality" name="nationality"
                 class="bg-white border border-purple-900 text-purple-900 placeholder-purple-900 text-md rounded-lg focus:ring-primary-600 focus:border-purple-700 block w-full p-2.5">
                 <option selected="">Select a Nationality</option>
                 <option value="AFG">AFG - AFGHANISTAN</option>
@@ -264,12 +259,12 @@
             </div>
             <div class="col-span-2">
               <label for="flag" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Flag</label>
-              <input type="file" name="flag" id="flag"
-                class="border border-gray-300 text-sm rounded-lg block w-full p-0.5 bg-white" required="" />
+              <input type="text" name="flag" id="flag"
+                class="bg-white border border-purple-900 text-purple-900 placeholder-purple-900 text-md rounded-lg focus:ring-primary-600 focus:border-purple-700 block w-full p-2.5"  />
             </div>
             <div class="col-span-2 sm:col-span-2">
               <label for="club" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Club</label>
-              <select id="club"
+              <select id="club" name="club"
                 class="bg-white border border-purple-900 text-purple-900 placeholder-purple-900 text-md rounded-lg focus:ring-primary-600 focus:border-purple-700 block w-full p-2.5">
                 <option selected="">Select a club</option>
                 <option value="ARS">ARS - ARSENAL</option>
@@ -384,8 +379,8 @@
             </div>
             <div class="col-span-2">
               <label for="logo" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Logo</label>
-              <input type="file" name="logo" id="logo"
-                class="border border-gray-300 text-sm rounded-lg block w-full p-0.5 bg-white" required="" />
+              <input type="text" name="logo" id="logo"
+                class="bg-white border border-purple-900 text-purple-900 placeholder-purple-900 text-md rounded-lg focus:ring-primary-600 focus:border-purple-700 block w-full p-2.5"  />
             </div>
             <div class="col-span-2">
               <label for="rating" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Rating</label>
@@ -480,7 +475,7 @@
             </div>
           </div>
           <!-- ------------------------------------------------- -->
-          <button type="submit"
+          <button type="submit" id="add-new-player-btn"
             class="inline-flex justify-center text-white bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800 shadow-lg shadow-purple-500/50 dark:shadow-lg dark:shadow-purple-800/80 font-medium rounded-lg text-md px-5 py-2.5 text-center me-2">
             <svg class="me-1 -ms-1 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
               <path fill-rule="evenodd"
@@ -494,9 +489,12 @@
     </div>
   </div>
   <!-- --------------------------------------------- -->
-
-
-
+<div id="customAlert" class="modal">
+  <div class="modal-content">
+      <span class="close-btn" onclick="closeAlert()">&times;</span>
+      <p id="alertMessage">Joueur ajouté avec succès !</p>
+  </div>
+</div>
 
   <!-- --------------------------------------------- -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>

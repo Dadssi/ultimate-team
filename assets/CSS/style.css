@@ -1,6 +1,5 @@
 body{
 	margin: 0;
-	/* background-image: linear-gradient(to left, #000000, #0f0b0d, #171317, #1d1a20, #21212a, #242833, #252f3c, #263744, #26404c, #274a53, #2b5457, #325d5a); */
 	background-image: linear-gradient(to left, #000000, #2c0b1c, #4d0539, #6a0061, #7c0794, #7c0794, #7c0794, #7c0794, #6a0061, #4d0539, #2c0b1c, #000000);
   }
   .navbar {
@@ -88,7 +87,7 @@ body{
 	.player-card {
 	  text-align: center;
 	  border-radius: 5px;
-	  border: 1px solid red;
+	  /* border: 1px solid red; */
 	}
 	.player-card .img-holder{
 	  width: 100%;
@@ -368,8 +367,58 @@ body{
 	}
 	/* -------------------------------------------------------------- */
 
-  
- 
-  
-  
-  
+.is-dragging{
+	filter: drop-shadow(0px 0px 10px rgba(3, 201, 169, 1));
+}
+
+/* Style du message d'alèrte */
+/* Styles pour la fenêtre modale */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background-image: linear-gradient(to left, #6c1085, #84158c, #9b1b92, #b12298, #c82b9d, #c72c9d, #c72c9c, #c62d9c, #af2696, #97218f, #801b88, #69177f);
+    border-radius: 5px;
+    padding: 20px;
+	padding-top: 80px;
+    text-align: center;
+    width: 400px;
+	height: 200px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+	filter: drop-shadow(0px 0px 15px rgba(117, 51, 230, 0.5));
+	
+}
+
+.close-btn {
+    position: absolute;
+    top: 0px;
+    right: 15px;
+    font-size: 35px;
+    font-weight: bold;
+    color: #333;
+    cursor: pointer;
+}
+
+.close-btn:hover {
+    color: rgb(196, 83, 194);
+}
+
+/* Styles pour le message */
+#alertMessage {
+    color: white;
+	font-size: 1.3rem;
+}
+
+.subtitude-card{
+	border: 1px dashed orange;
+}
